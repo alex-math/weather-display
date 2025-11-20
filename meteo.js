@@ -1,3 +1,7 @@
+import conf from './conf.json';
+
+const apiKey = conf.openweather_api_key;
+
 let weather = {
     "apikey": WEATHER_API_KEY,
     fetchWeather : function (city) {

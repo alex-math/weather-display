@@ -1,14 +1,28 @@
-![Black Minimal Motivation Quote LinkedIn Banner (2)](https://user-images.githubusercontent.com/90236635/232291203-4d6bed99-30e5-4837-96b6-98bbbef053d3.png)
+# transport-weather-screen
 
-# simple-weather-website
 
-## About
- - This is a simple weather website.
- -  Pure HTML, CSS, JavaScript used.
- 
- ## To see the project
-[Weather website](https://simple-weather-website.netlify.app/)
+## 🌤️ Comparatif des principales APIs météo
 
-## Preview
+| Critère                     | OpenWeatherMap                                | WeatherAPI.com                              | MeteoConcept / Météo France                 |
+|-----------------------------|-----------------------------------------------|----------------------------------------------|---------------------------------------------|
+| **Gratuité**                | ✔️ Oui (plan gratuit suffisant)                | ✔️ Oui (mais limites plus strictes)           | ✔️ Oui                                      |
+| **Accès aux données**       | Très simple (URL directe avec `appid`)        | Simple mais nécessite plus de paramètres     | Plus complexe, nécessite un compte FR       |
+| **Qualité des données**     | Bonne, largement utilisée                     | Très bonne                                   | Excellente pour la France                   |
+| **Couverture géographique** | Monde entier                                  | Monde entier                                 | France uniquement (selon API choisie)       |
+| **Format des JSON**         | Clair, standard, facile à exploiter           | Très propre mais plus verbeux                | Plus technique, moins didactique            |
+| **Documentation**           | Très complète, idéale pour débutant           | Très complète également                      | Plus orientée usages pro / institutionnels  |
+| **Icônes météo fournies**   | ✔️ Oui, intégration directe via URL           | ✔️ Oui                                        | ❌ Nécessite vos propres assets              |
+| **Limitations**             | 1 000 requêtes/jour en gratuit                | 1 000 requêtes/jour (mais plus de restrictions) | Limitée hors France                         |
 
-<img src="https://user-images.githubusercontent.com/90236635/178144287-2d0c35f4-0b40-4b2c-bdfe-d874777eb87b.png" width="75%">
+## 🎯 Pourquoi j’ai choisi OpenWeatherMap
+
+Voici les raisons principales :
+
+- **API très simple à utiliser** → parfait pour un projet pédagogique ou une formation.  
+- **Une clé unique** permet de tout faire : météo actuelle, prévisions, icônes officielles.  
+- **Réponses JSON faciles à traiter**, idéales pour comprendre les bases des appels API.  
+- **Plan gratuit largement suffisant** pour un écran de transport (1 requête / heure).  
+- **Très utilisé par les développeurs débutants** → beaucoup d'exemples, de ressources et de tutoriels.  
+- **Compatible avec une configuration via `conf.json`**, comme demandé dans le sujet, sans moteurs de recherche météo.  
+
+Résultat : **OpenWeatherMap répond parfaitement aux exigences du projet** tout en étant simple, documenté et flexible.
