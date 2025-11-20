@@ -19,6 +19,7 @@ du système des écrans de la compagnie de transports en commun de la ville.
 Exemples d’interfaces météo :
 - https://github.com/PritamSarbajna/simple-weather-website
 - https://github.com/abdellatif-laghjaj/weather-web-app
+
 L’interface ne doit pas inclure de moteur de recherche pour la localisation de l’information
 météo.
 Mais, elle doit inclure un fichier de configuration (JSON par exemple) dans lequel l’information
@@ -68,3 +69,11 @@ Voici les raisons principales :
 - **Compatible avec une configuration via `conf.json`**, comme demandé dans le sujet, sans moteurs de recherche météo.  
 
 Résultat : **OpenWeatherMap répond parfaitement aux exigences du projet** tout en étant simple, documenté et flexible. On regrettera cependant sa moindre qualité concernant les données transmises, particulièrement comparée à Météo France.
+
+---
+
+<p align="center">
+  <a href="https://alex-math.github.io/nom-du-repo/" target="_blank">
+    🚀 Lancer l'application météo
+  </a>
+</p>

@@ -1,7 +1,5 @@
-import { OPENWEATHER_API_KEY } from "./apikey.js";
-
 const weather = {
-    apiKey: OPENWEATHER_API_KEY,
+    apiKey: "504d0c4bdab7f55aea742862d66bd43f",
     city: null,
 
     fetchWeather() {
