@@ -73,7 +73,7 @@ Résultat : **OpenWeatherMap répond parfaitement aux exigences du projet** tout
 ---
 
 <p align="center">
-  <a href="https://alex-math.github.io/nom-du-repo/" target="_blank">
+  <a href="https://alex-math.github.io/weather-display/" target="_blank">
     🚀 Lancer l'application météo
   </a>
 </p>
